@@ -14,7 +14,18 @@ import { FooterComponent } from './shared/footer/footer.component';
 })
 export class AppComponent  implements OnInit  {
   title = 'RainBow_Digital';
+  isTransparent:boolean = true;
   constructor( private renderer : Renderer2) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+        const navbarElement = document.querySelector('.navbar') as HTMLElement;
+    this.renderer.listen('window', 'scroll', (event) => {
+      const number = window.scrollY;
+      if (number > 150 || window.pageYOffset > 150) {
+          this.isTransparent=false;
+      } else {
+          this.isTransparent=true;
+      }
+    });
+  }
 }
