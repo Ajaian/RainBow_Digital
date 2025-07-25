@@ -1,0 +1,118 @@
+footer{
+    background: #C0C0C0;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main-container{
+    display: flex;
+  }
+  .footer-main{
+    justify-content: center !important;
+  }
+  .footer-condact{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;  
+  }
+  .footer-heading{
+    color: #000;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .footer-heading h2{
+    font-size: 32px;
+  }
+  .footer-redirection{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 48px;
+  }
+  .footer-redirection li{
+    display: inline-block;
+  }
+  .footer-redirection li a{
+    padding: 10px;
+    color: #000;
+  }
+  a, a:hover {
+    text-decoration: none !important;
+}
+.Contact{
+    margin-bottom: 24px;
+}
+.Contact h3{
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.Contact ul{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.Contact ul li{
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.Contact ul li a{
+    padding: 10px;
+    color: #fff;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+}
+.creater-tag{
+  text-align: center;
+}
+.copyright{
+  padding: 10px;
+}
+.nav-link {
+  display: inline-flex; 
+  align-items: center;
+  color: #fff;
+  padding: 10px 20px !important;
+  border-radius: 25px; 
+  text-decoration: none;
+  font-family: sans-serif; 
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease; 
+}
+.bi {
+  width: 18px;
+  text-align: center;
+  display: inline-block;
+  font: normal normal normal 14px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.bi-whatsapp, .bi-facebook,.bi-instagram {
+padding-right: 5px;
+}
+.facebook-nav-link{
+  background-color: #1877f2 !important;
+  border-color: #1877f2 !important;
+}
+.whatsApp-nav-link{
+  background-color: #25D366 !important;
+  border-color: #25D366 !important;
+}
+.instagram-nav-link{
+  background-color: #fd1d1d!important;
+  border-color: #fd1d1d !important;
+  background-size: 140px;
+}
